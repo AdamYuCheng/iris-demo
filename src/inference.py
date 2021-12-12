@@ -8,7 +8,7 @@ def inference():
     # 讀取模型
     clf = load_model(MODEL_PATH)
 
-    # 讀取預測資料
+    # 讀取預測資料 from csv or db
     df = read_data(INFERENCE_DATA)
 
     # 模型預測

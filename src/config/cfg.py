@@ -3,6 +3,7 @@ TRAINING_DATA = '../data/iris.csv'
 INFERENCE_DATA = '../data/iris.csv'
 MODEL_PATH = './weights/lr_model.pkl'
 PREDICT_PATH = '../data/iris_pred.csv'
+DATABASE = '../data/iris.db'
 
 
 # Model Config
